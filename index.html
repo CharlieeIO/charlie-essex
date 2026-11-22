@@ -130,11 +130,11 @@ dl div{grid-template-columns:6.5em minmax(0,1fr)}
         <p class="school">Electrical engineering, University of Miami</p>
         <h1 class="d">Charlie<br>Essex</h1>
         <p class="hook">I like building things that have to work outside the lab.</p>
-        <p class="lede">At Woods Hole Oceanographic Institution I built an underwater light lure that mimics deep-sea bioluminescence, and it's now running in live tests. I've also laid out and hand-soldered a 71-LED circuit board, and built an AI system that texts back new customers for service businesses within seconds. Here's some of the stuff I've worked on.</p>
+        <p class="lede">At Woods Hole Oceanographic Institution I built an underwater light lure that mimics deep-sea bioluminescence, and it's been deployed to 700 meters on a research expedition to American Samoa. I've also laid out and hand-soldered a 71-LED circuit board, and built an AI system that texts back new customers for service businesses within seconds. Here's some of the stuff I've worked on.</p>
         <div class="figs">
           <div><b>71</b><span>LEDs hand-soldered on a 2.5 inch board</span></div>
           <div><b>12</b><span>light patterns in the lure firmware</span></div>
-          <div><b>6</b><span>services wired into LeadFlow</span></div>
+          <div><b>700 m</b><span>depth on four successful ocean deployments</span></div>
         </div>
       </div>
       <figure class="himg"><img src="img/lure-glow.jpg" alt="Blue LEDs glowing through the dome of the optical lure"><figcaption>The optical lure, lit</figcaption></figure>
@@ -158,7 +158,7 @@ dl div{grid-template-columns:6.5em minmax(0,1fr)}
         <figure class="big"><img src="img/lure-bench.jpg" alt="Lure electronics stack with LED rings next to its domed pressure housing" loading="lazy"><figcaption>Electronics stack and pressure housing</figcaption></figure>
         <div class="txt">
           <p class="first">An underwater light lure that mimics the bioluminescent flashes of midwater animals, built for ocean research.</p>
-          <p>I prototyped and developed the electronics and firmware, from the tiered LED rings to scheduled light programs. It's been through extensive live testing and is fully operational.</p>
+          <p>I prototyped and developed the electronics and firmware, from the tiered LED rings to scheduled light programs. We deployed it to 700 meters on a research expedition to American Samoa, with four successful deployments.</p>
           <p>The firmware runs twelve light patterns (pulse, twinkle, spiral, pinwheel, escape and more) on non-blocking timers, so the clock, logging and LEDs all update together, and it switches patterns by time of day for each deployment.</p>
           <dl>
             <div><dt>Controller</dt><dd>Arduino Nano 33 IoT</dd></div>
@@ -167,6 +167,7 @@ dl div{grid-template-columns:6.5em minmax(0,1fr)}
             <div><dt>Data</dt><dd>Timestamped SD card logging</dd></div>
             <div><dt>Power</dt><dd>LiPo, boost converter, fuel gauge</dd></div>
             <div><dt>Updates</dt><dd>Over-the-air firmware</dd></div>
+            <div><dt>Deployed</dt><dd>700 m, four missions, American Samoa</dd></div>
           </dl>
         </div>
       </div>
@@ -184,7 +185,7 @@ dl div{grid-template-columns:6.5em minmax(0,1fr)}
         <figure class="big"><video src="img/led-board.mp4" poster="img/led-board-poster.jpg" autoplay muted loop playsinline aria-label="The round LED board lit and cycling colors"></video><figcaption>Running a color chase</figcaption></figure>
         <div class="txt">
           <p class="first">A 2.5 inch round board with 71 tiny addressable LEDs around its edge, for a brighter, denser light ring.</p>
-          <p>Each LED has its own decoupling capacitor beside it, and the chain runs from one four-pin connector in the center. The 2 mm LEDs were hand-soldered and inspected under magnification before power-up.</p>
+          <p>I helped design the board and laid it out in KiCad. Each LED has its own decoupling capacitor beside it, and the chain runs from one four-pin connector in the center. The 2 mm LEDs were hand-soldered and inspected under magnification before power-up.</p>
           <dl>
             <div><dt>Board</dt><dd>63.5 mm round</dd></div>
             <div><dt>LEDs</dt><dd>71 × WS2812B-2020</dd></div>
